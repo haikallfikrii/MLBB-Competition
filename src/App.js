@@ -38,26 +38,26 @@ const App = () => {
           className="w-32 h-auto mx-auto"
         />
       </header>
-      <main className="relative flex flex-col items-center w-full max-w-screen-lg px-4">
+      <main className="relative flex flex-col items-center w-full max-w-screen">
         <div className="relative flex justify-center w-full my-4">
-          <img src={heroo} alt="Heroutama" className="w-1/2 h-auto" />{" "}
+          <img src={heroo} alt="Heroutama" className="z-20 w-1/2 h-auto" />{" "}
           {/* Dikecilkan dan di tengah */}
         </div>
-        <div className="relative flex items-start justify-between w-full mt-8">
+        <div className="relative flex items-start justify-between w-full mt-2">
           {" "}
           {/* Digeser ke bawah */}
           <img
             src={hero1}
             alt="Hero 1"
-            className="absolute top-0 left-0 w-48 h-auto transform -translate-y-1/2 animate-bounce" // Dibesarkan dan dibawa lebih ke bawah
+            className="absolute top-0 left-0 z-10 w-48 h-auto transform -translate-y-1/2 animate-bounce" // Dibesarkan dan dibawa lebih ke bawah
           />
           <img
             src={hero2}
             alt="Hero 2"
-            className="absolute top-0 right-0 w-48 h-auto transform -translate-y-1/2 animate-bounce" // Dibesarkan dan dibawa lebih ke bawah
+            className="absolute top-0 right-0 z-10 w-48 h-auto transform -translate-y-1/2 animate-bounce" // Dibesarkan dan dibawa lebih ke bawah
           />
         </div>
-        <div className="mt-4 text-center">
+        <div className="z-30 mt-24 text-center">
           <label>
             <input
               type="checkbox"
